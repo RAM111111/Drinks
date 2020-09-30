@@ -13,6 +13,10 @@
 		210A8A02252402EF00EE35C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210A8A01252402EF00EE35C1 /* Assets.xcassets */; };
 		210A8A05252402EF00EE35C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210A8A04252402EF00EE35C1 /* Preview Assets.xcassets */; };
 		210A8A08252402EF00EE35C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210A8A06252402EF00EE35C1 /* LaunchScreen.storyboard */; };
+		210A8A1025240EA700EE35C1 /* drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A8A0F25240EA600EE35C1 /* drink.swift */; };
+		210A8A122524153B00EE35C1 /* Drinkitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A8A112524153B00EE35C1 /* Drinkitem.swift */; };
+		210A8A142524209C00EE35C1 /* load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A8A132524209A00EE35C1 /* load.swift */; };
+		210A8A16252424D900EE35C1 /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 210A8A15252424D900EE35C1 /* drinks.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		210A8A04252402EF00EE35C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		210A8A07252402EF00EE35C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		210A8A09252402EF00EE35C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210A8A0F25240EA600EE35C1 /* drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drink.swift; sourceTree = "<group>"; };
+		210A8A112524153B00EE35C1 /* Drinkitem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinkitem.swift; sourceTree = "<group>"; };
+		210A8A132524209A00EE35C1 /* load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = load.swift; sourceTree = "<group>"; };
+		210A8A15252424D900EE35C1 /* drinks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = drinks.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				210A8A06252402EF00EE35C1 /* LaunchScreen.storyboard */,
 				210A8A09252402EF00EE35C1 /* Info.plist */,
 				210A8A03252402EF00EE35C1 /* Preview Content */,
+				210A8A0F25240EA600EE35C1 /* drink.swift */,
+				210A8A112524153B00EE35C1 /* Drinkitem.swift */,
+				210A8A132524209A00EE35C1 /* load.swift */,
+				210A8A15252424D900EE35C1 /* drinks.json */,
 			);
 			path = Drinks;
 			sourceTree = "<group>";
@@ -135,6 +147,7 @@
 			files = (
 				210A8A08252402EF00EE35C1 /* LaunchScreen.storyboard in Resources */,
 				210A8A05252402EF00EE35C1 /* Preview Assets.xcassets in Resources */,
+				210A8A16252424D900EE35C1 /* drinks.json in Resources */,
 				210A8A02252402EF00EE35C1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,7 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				210A89FC252402D200EE35C1 /* AppDelegate.swift in Sources */,
+				210A8A142524209C00EE35C1 /* load.swift in Sources */,
 				210A89FE252402D200EE35C1 /* SceneDelegate.swift in Sources */,
+				210A8A1025240EA700EE35C1 /* drink.swift in Sources */,
+				210A8A122524153B00EE35C1 /* Drinkitem.swift in Sources */,
 				210A8A00252402D200EE35C1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
