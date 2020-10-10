@@ -10,28 +10,34 @@ import SwiftUI
 
 struct drinkrow: View {
     
-    var categorynae:String
+    var categoryname:String
     var drinky:[drinkss]
     
     var body: some View {
-        
-        ScrollView(){
-            HStack(alignment: .top){
-                ForEach(self.drinky,id: \.name){
-                drink in
-                Drinkitem(drink: drink)
-                    .frame(width:300)
-                    .padding(.trailing, 30)
+       VStack(alignment: .leading){
+            Text(self.categoryname)
+                .font(.title)
+            ScrollView(.horizontal, showsIndicators: false){
+                HStack(alignment: .top){
+                    ForEach(self.drinky){
+                    drinko in
+                    Drinkitem(drink: drinko)
+                        .frame(width:300)
+                        .padding(.trailing, 30)
+                    }
+
                 }
 
             }
-
+            
         }
+
     }
+    
 }
 
 struct drinkrow_Previews: PreviewProvider {
     static var previews: some View {
-        drinkrow(categorynae: "HOT", drinky: drinkdata)
+        drinkrow(categoryname: "HOT", drinky: drinkdata)
     }
 }

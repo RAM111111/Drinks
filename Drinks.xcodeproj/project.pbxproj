@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		210A89FC252402D200EE35C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A89FB252402D200EE35C1 /* AppDelegate.swift */; };
 		210A89FE252402D200EE35C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A89FD252402D200EE35C1 /* SceneDelegate.swift */; };
-		210A8A00252402D200EE35C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A89FF252402D200EE35C1 /* ContentView.swift */; };
+		210A8A00252402D200EE35C1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A89FF252402D200EE35C1 /* HomeView.swift */; };
 		210A8A02252402EF00EE35C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210A8A01252402EF00EE35C1 /* Assets.xcassets */; };
 		210A8A05252402EF00EE35C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210A8A04252402EF00EE35C1 /* Preview Assets.xcassets */; };
 		210A8A08252402EF00EE35C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210A8A06252402EF00EE35C1 /* LaunchScreen.storyboard */; };
@@ -18,13 +18,14 @@
 		210A8A142524209C00EE35C1 /* load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A8A132524209A00EE35C1 /* load.swift */; };
 		210A8A16252424D900EE35C1 /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 210A8A15252424D900EE35C1 /* drinks.json */; };
 		2128A6A62530722F00DD932E /* drinkrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128A6A52530722F00DD932E /* drinkrow.swift */; };
+		2128A6A82531CCE600DD932E /* Drinkdetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128A6A72531CCE400DD932E /* Drinkdetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		210A89F8252402D200EE35C1 /* Drinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drinks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		210A89FB252402D200EE35C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		210A89FD252402D200EE35C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		210A89FF252402D200EE35C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		210A89FF252402D200EE35C1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		210A8A01252402EF00EE35C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		210A8A04252402EF00EE35C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		210A8A07252402EF00EE35C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,6 +35,7 @@
 		210A8A132524209A00EE35C1 /* load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = load.swift; sourceTree = "<group>"; };
 		210A8A15252424D900EE35C1 /* drinks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = drinks.json; sourceTree = "<group>"; };
 		2128A6A52530722F00DD932E /* drinkrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinkrow.swift; sourceTree = "<group>"; };
+		2128A6A72531CCE400DD932E /* Drinkdetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinkdetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +70,9 @@
 			children = (
 				210A89FB252402D200EE35C1 /* AppDelegate.swift */,
 				210A89FD252402D200EE35C1 /* SceneDelegate.swift */,
-				210A89FF252402D200EE35C1 /* ContentView.swift */,
+				210A89FF252402D200EE35C1 /* HomeView.swift */,
 				2128A6A52530722F00DD932E /* drinkrow.swift */,
+				2128A6A72531CCE400DD932E /* Drinkdetail.swift */,
 				210A8A01252402EF00EE35C1 /* Assets.xcassets */,
 				210A8A06252402EF00EE35C1 /* LaunchScreen.storyboard */,
 				210A8A09252402EF00EE35C1 /* Info.plist */,
@@ -168,7 +171,8 @@
 				210A8A1025240EA700EE35C1 /* drink.swift in Sources */,
 				2128A6A62530722F00DD932E /* drinkrow.swift in Sources */,
 				210A8A122524153B00EE35C1 /* Drinkitem.swift in Sources */,
-				210A8A00252402D200EE35C1 /* ContentView.swift in Sources */,
+				210A8A00252402D200EE35C1 /* HomeView.swift in Sources */,
+				2128A6A82531CCE600DD932E /* Drinkdetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
